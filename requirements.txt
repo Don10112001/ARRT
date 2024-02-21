@@ -1,4 +1,4 @@
-﻿altair==5.2.0
+altair==5.2.0
 anyio==4.2.0
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
@@ -34,7 +34,7 @@ GitPython==3.1.41
 idna==3.6
 importlib-metadata==7.0.1
 ipykernel==6.28.0
-ipython==8.18.1
+ipython==8.19.0
 ipywidgets==8.1.1
 isoduration==20.11.0
 jedi==0.19.1
@@ -96,6 +96,7 @@ python-dateutil==2.8.2
 python-json-logger==2.0.7
 python-slugify==8.0.3
 pytz==2023.4
+pywin32==306
 pywinpty==2.0.12
 PyYAML==6.0.1
 pyzmq==25.1.2
