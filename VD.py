@@ -14,7 +14,7 @@ st.markdown('<style>div.block-container{padding-top:1rem;}</style>',unsafe_allow
 def load_data(path: str):
     data=pd.read_excel(path)
     return data
-df=load_data(r"C:\Users\Vinit\Desktop\Finalprject\ART.xlsx")
+df=load_data("ART.xlsx")
 
 col1, col2 = st.columns((2))
 df["Order Date"] = pd.to_datetime(df["Order Date"])
